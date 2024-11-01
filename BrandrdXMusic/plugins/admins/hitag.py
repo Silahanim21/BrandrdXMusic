@@ -272,7 +272,7 @@ async def mentionall(client, message):
         pass
 
 
-@app.on_message(filters.command(["lifetag"], prefixes=["/", "@", "#"]))
+@app.on_message(filters.command(["dhddhdh"], prefixes=["/", "@", "#"]))
 async def mention_allvc(client, message):
     chat_id = message.chat.id
     if message.chat.type == ChatType.PRIVATE:
