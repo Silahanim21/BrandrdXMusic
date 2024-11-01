@@ -2,10 +2,10 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram import Client, filters, enums 
 
 class BUTTONS(object):
-    MBUTTON = [[InlineKeyboardButton("CʜᴀᴛGPT", callback_data="mplus HELP_ChatGPT"),InlineKeyboardButton("Hɪsᴛᴏʀʏ", callback_data="mplus HELP_History"),InlineKeyboardButton("Rᴇᴇʟ", callback_data="mplus HELP_Reel")],
-    [InlineKeyboardButton("info", callback_data="mplus HELP_Info"),InlineKeyboardButton("Exᴛʀᴀ", callback_data="mplus HELP_Extra")],
+    MBUTTON = [[InlineKeyboardButton("chat-gpt", callback_data="mplus HELP_ChatGPT"),InlineKeyboardButton("detaylar", callback_data="mplus HELP_History"),InlineKeyboardButton("akış", callback_data="mplus HELP_Reel")],
+    [InlineKeyboardButton("info", callback_data="mplus HELP_Info"),InlineKeyboardButton("ekstra", callback_data="mplus HELP_Extra")],
     [InlineKeyboardButton("ᴄᴏᴜᴘʟᴇꜱ", callback_data="mplus HELP_Couples"),
-    InlineKeyboardButton("astion", callback_data="mplus HELP_Action"),InlineKeyboardButton("Sᴇᴀʀᴄʜ", callback_data="mplus HELP_Search")],    
+    InlineKeyboardButton("astion", callback_data="mplus HELP_Action"),InlineKeyboardButton("arama", callback_data="mplus HELP_Search")],    
     [InlineKeyboardButton("yazı tipi", callback_data="mplus HELP_Font"),
     InlineKeyboardButton("bot", callback_data="mplus HELP_Bots"),InlineKeyboardButton("Ⓣ-graph", callback_data="mplus HELP_TG")],
     [InlineKeyboardButton("kaynak kod", callback_data="mplus HELP_Source"),
