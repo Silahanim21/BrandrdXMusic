@@ -23,7 +23,7 @@ from BrandrdXMusic.utils.inline.song import song_markup
 
 # Song Module
 
-@app.on_message(filters.command(["song"]))
+@app.on_message(filters.command(["bul"]))
 @language
 async def song_commad_private(client, message: Message, _):
     await message.delete()
