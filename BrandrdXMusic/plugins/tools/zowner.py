@@ -12,12 +12,12 @@ from BrandrdXMusic.utils.database import add_served_chat, get_assistant
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/1aac9a42f6f35138da34b.jpg",
-        caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁""",
+        caption=f"""🍁 kaynak🥰kod💝 için ✨🙊 tıklayın 🌱🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "ƨσʋяcɛ", url=f"https://github.com/WCGKING/BrandrdXMusic"
+                        "KAYNAK kod", url=f"https://github.com/WCGKING/BrandrdXMusic"
                     )
                 ]
             ]
@@ -34,7 +34,7 @@ async def clones(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "ƨσʋяcɛ", url=f"https://github.com/WCGKING/BrandrdXMusic"
+                        "kaynak kod", url=f"https://github.com/WCGKING/BrandrdXMusic"
                     )
                 ]
             ]
