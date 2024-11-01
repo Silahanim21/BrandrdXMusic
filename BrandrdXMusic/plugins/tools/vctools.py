@@ -19,13 +19,13 @@ from telethon.tl.functions.phone import (
 # vc on
 @app.on_message(filters.video_chat_started)
 async def brah(_, msg):
-    await msg.reply("**😍ᴠɪᴅᴇᴏ ᴄʜᴀᴛ sᴛᴀʀᴛᴇᴅ🥳**")
+    await msg.reply("**😍 görüntülü sohbet başladı 🥳**")
 
 
 # vc off
 @app.on_message(filters.video_chat_ended)
 async def brah2(_, msg):
-    await msg.reply("**😕ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ᴇɴᴅᴇᴅ💔**")
+    await msg.reply("**😕 görüntülü sohbet kapandı 💔**")
 
 
 # invite members on vc
@@ -49,7 +49,7 @@ async def brah3(app: app, message: Message):
             reply_text,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton(text="๏ ᴊᴏɪɴ ᴠᴄ ๏", url=add_link)],
+                    [InlineKeyboardButton(text="๏ sesli sohbete Katıl๏", url=add_link)],
                 ]
             ),
         )
@@ -99,7 +99,7 @@ async def search(event):
                     continue
                 result += f"{title}\n{link}\n\n"
             prev_and_next_btns = [
-                Button.inline("▶️Next▶️", data=f"next {start+10} {event.text.split()[1]}")
+                Button.inline("▶️ devam ▶️", data=f"next {start+10} {event.text.split()[1]}")
             ]
             await msg.edit(result, link_preview=False, buttons=prev_and_next_btns)
             await session.close()
